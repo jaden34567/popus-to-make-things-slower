@@ -1,0 +1,9 @@
+(function() {
+    'use strict';
+
+    Array.prototype.sample = function(){
+  return this[Math.floor(Math.random()*this.length)];
+}
+    alert('...and today your fortune is...');
+    alert(['Warning: i farted'].sample());
+})();
